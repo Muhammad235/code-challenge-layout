@@ -1,0 +1,87 @@
+:root{
+    --bg-color: #1D2123;
+    --dark-alt: #1A1E1F;
+    --light:#EFEEE0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-section{ 
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    height: 95vh;
+    /* gap: 2rem; */
+}
+
+
+
+.main-section .left{
+    width: 120px;
+    border: 2px solid red;
+}
+
+.main-section .left .images{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   align-items: center;
+}
+
+.main-section .left .images .img{
+    height: 34px;
+    width: 34px;
+}
+
+
+.main-section .left .images .appNav, .appNav2{
+    border-radius: 32px;
+    background-color: var(--dark-alt);
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section .left .images .appNav{
+    margin-top: 40px;
+    height: 230px;
+    width: 52px;
+}
+
+.main-section .left .images .appNav2{
+    margin-top: 2rem;
+    height: 127px;
+    width: 52px;
+}
+
+.main-section .left .images .appNav2 img{
+    margin-top: 20px;
+}
+
+
+/* right content */
+.main-section .right{
+    border: 2px solid green;
+    width: 1210px;
+}
+
+.main-section .right .input-search{
+    height: 73px;
+    width: 1122px;
+    background: #1D2123;   
+    border: none; 
+}
